@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #131313;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #000;
+    padding: 15px 0;
+}
+
+.brand h2 {
+    color: lightblue;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.homecl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.homecl-text h1 {
+    font-size: 3rem;
+}
+
+.homecl-text span {
+    color: rgb(84, 185, 218);
+}
+
+.homecl-img img {
+    border-radius: 50%;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #6182a0;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.projects-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card i {
+    font-size: 2rem;
+    color: #4db5f5;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.hire-btn {
+    background-color: #3a20f8;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #525dfe;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
